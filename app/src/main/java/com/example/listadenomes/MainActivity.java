@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        listNomes = findViewById(R.id.listNomes);
+        listNomes = findViewById(R.id.ConstraintLayout);
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(
                 getApplicationContext(),
